@@ -69,7 +69,7 @@ p {
 .dropdown-item:focus, .dropdown-item:hover {
     color: #16181b;
     text-decoration: none;
-    background: black;
+    background: white;
 }
 
 /* Navigation links */
@@ -81,10 +81,10 @@ p {
 }
 
 /* Jumbotron  */
-.jumbotron {
+.jumbotro {
   
-  background-image: url(../images/Logos/face.png);
-  background-size: cover;
+  background-image: url(../images/gokouuu.png);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: 50%, 50%;
   height: calc(100vh - 25px);
@@ -110,7 +110,7 @@ h1{
 
 .content{
   padding: 50px;
-  background-color: black;
+  
 }
 
 .sectionHeading{
@@ -130,7 +130,7 @@ h1{
   display: flex;
   align-content: space-between;
   justify-content: space-between;
-  background-color: blue;
+  background:rgba(255,255,255, 0.3);
   color: white;
   height: 100%;
 }
