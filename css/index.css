@@ -142,3 +142,8 @@ h1{
 {
   width: 80%;
 }
+
+.btn{
+  background-color: rgb(227, 96, 15);
+  outline-style: none;
+}
