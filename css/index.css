@@ -1,0 +1,137 @@
+body {
+  background-image: url('../images/Logos/back.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+footer {
+  background-image: url();
+  
+  background-repeat: no-repeat;
+  background-attachment: ;
+  
+  background-position: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  line-height: 60px;
+  margin-top: 50px;
+} 
+.cardContainer {
+  margin-top: 20px;
+  border-style: none;
+
+  
+  
+}
+.card {
+  margin: 0 auto;
+  
+  
+}
+
+h1, h2, h3 , h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+p {
+  font-family: 'Jura', sans-serif;
+}
+
+/* General */
+.customNav {
+  position: fixed;
+  width: 100%;
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+  z-index: 10;
+}
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 0 !important;
+}
+.navbar-brand img {
+  padding-right: 15px;
+  width: 65px;
+}
+.nav-item {
+  margin: 0px 15px;
+}
+
+/* Navigation dropdown menu */
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background: black;
+}
+
+/* Navigation links */
+.customNav a {
+  color: white !important;
+}
+.navCTA {
+  font-size: 15px;
+}
+
+/* Jumbotron  */
+.jumbotron {
+  
+  background-image: url(../images/Logos/face.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%, 50%;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Jumbotron copy */
+.jumboCopy {
+  
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.content{
+  padding: 50px;
+  background-color: black;
+}
+
+.sectionHeading{
+  text-align: center;
+}
+
+.showsNear{
+  padding: 0px 30px 30px 30px;
+}
+
+.cardContainer{
+  text-align: center;
+  
+}
+
+.card{
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+  height: 100%;
+}
+
